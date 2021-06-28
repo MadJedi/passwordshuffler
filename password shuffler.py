@@ -1,9 +1,10 @@
 import random
 a = '123456789'
-b = 'qwertyuiopasdfgh'
+b = 'qwertyuiopasdfghjklzxcvbnm'
+f = '@#$%&?!*'
 c = b.upper()
 #соединяем все строки
-d = a+b+c
+d = a+b+c+f
 #преобразуем в список
 ls = list(d)
 #мешаем
